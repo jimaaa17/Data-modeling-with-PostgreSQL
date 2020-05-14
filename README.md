@@ -42,6 +42,6 @@ Using the song and log datasets, you'll need to create a star schema optimized f
 python create_tables.py
 python etl.py
 ### Python Scripts
-Markup: *create_tables.py: Clean previous schema and creates tables.
-        *sql_queries.py: All queries used in the ETL pipeline.
-        etl.py: Read JSON logs and JSON metadata and load the data into generated tables.
+Markup: * create_tables.py: Clean previous schema and creates tables.
+        * sql_queries.py: All queries used in the ETL pipeline.
+        * etl.py: Read JSON logs and JSON metadata and load the data into generated tables.
