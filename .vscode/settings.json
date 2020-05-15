@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "sparkfiy",
+            "dialect": "PostgreSQL",
+            "isActive": false,
+            "isConnected": false,
+            "name": "postgre_db",
+            "password": "student",
+            "port": 5432,
+            "server": "localhost",
+            "username": "student"
+        }
+    ]
+}
