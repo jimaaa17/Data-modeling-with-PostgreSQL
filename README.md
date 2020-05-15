@@ -45,3 +45,12 @@ python etl.py
  * create_tables.py: Clean previous schema and creates tables.
  * sql_queries.py: All queries used in the ETL pipeline.
  * etl.py: Read JSON logs and JSON metadata and load the data into generated tables.
+### Project structure
+Files used on the project:
+* data folder nested at the home of the project, where all needed jsons reside.
+* sql_queries.py contains all your sql queries, and is imported into the files bellow.
+* create_tables.py drops and creates tables. You run this file to reset your tables before each time you run your ETL scripts.
+* test.ipynb displays the first few rows of each table to let you check your database.
+* etl.ipynb reads and processes a single file from song_data and log_data and loads the data into your tables.
+* etl.py reads and processes files from song_data and log_data and loads them into your tables.
+* README.md current file, provides discussion on my project.
